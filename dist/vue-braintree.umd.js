@@ -1,6 +1,6 @@
 /*!
  * vue-braintree v2.1.0 
- * (c) 2021 
+ * (c) 2022 
  * Released under the undefined License.
  */
 (function (global, factory) {
@@ -12,6 +12,8 @@
   dropIn = dropIn && dropIn.hasOwnProperty('default') ? dropIn['default'] : dropIn;
 
   function _typeof(obj) {
+    "@babel/helpers - typeof";
+
     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
       _typeof = function (obj) {
         return typeof obj;
@@ -245,7 +247,7 @@
   const __vue_script__ = script;
 
   /* template */
-  var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"payment"},[_c('div',{ref:"dropin"}),_vm._v(" "),_vm._t("button",[_c('button',{class:_vm.btnClass,on:{"click":_vm.submit}},[_vm._v(_vm._s(_vm.btnText))])],{"submit":_vm.submit})],2)};
+  var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"payment"},[_c('div',{ref:"dropin"}),_vm._v(" "),_vm._t("button",function(){return [_c('button',{class:_vm.btnClass,on:{"click":_vm.submit}},[_vm._v(_vm._s(_vm.btnText))])]},{"submit":_vm.submit})],2)};
   var __vue_staticRenderFns__ = [];
 
     /* style */
